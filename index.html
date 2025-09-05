@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD Livros</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Dados Cadastrais</title>
 </head>
 <body>
-    
+    <div class="formulario">
+        <div class="inputs"></div>
+        <input type="text" name="nome" id="nome" placeholder="Nome">
+        <input type="email" name="email" id="email" placeholder="E-mail">
+        <input type="number" name="numero" id="numero" placeholder="Número">
+        <input type="password" name="senha" id="senha" placeholder="Senha">
+        <button onclick="verificarEntradas()">Cadastrar</button>
+    </div>
+    <script src="app.js" defer></script>
 </body>
 </html>
